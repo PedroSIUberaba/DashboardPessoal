@@ -10,7 +10,6 @@ if (!$resultado = $conn->query($sql)) {
 
 <style>
     .table-container {
-        max-height: 400px;
         overflow-y: auto;
         border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +17,6 @@ if (!$resultado = $conn->query($sql)) {
         padding: 20px;
         margin: 20px 0;
         overflow: hidden;
-        /* Adicionado para bordas arredondadas */
     }
 
     .listar {
@@ -68,9 +66,7 @@ if (!$resultado = $conn->query($sql)) {
         cursor: pointer;
         transition: background-color 0.3s;
         display: flex;
-        /* Alinhando ícones verticalmente */
         align-items: center;
-        /* Centralizando ícones */
     }
 
     button:hover {
@@ -87,17 +83,14 @@ if (!$resultado = $conn->query($sql)) {
         height: 20px;
     }
 
-    /* Responsividade */
     @media (max-width: 768px) {
         .listar {
             font-size: 14px;
-            /* Reduzir o tamanho da fonte em telas menores */
         }
 
         .itens,
         .itens2 {
             padding: 10px;
-            /* Ajustar o padding em telas menores */
         }
     }
 </style>

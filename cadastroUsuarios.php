@@ -73,6 +73,7 @@ include("valida.php");
         position: sticky;
         top: 0;
         border-radius: 10px;
+        z-index: 1000;
     }
 
     .ola {
