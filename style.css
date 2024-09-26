@@ -1,0 +1,105 @@
+ * {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(duplo4.jpg);
+        backdrop-filter: blur(5px);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .container-form {
+        width: 500px;
+        height: 500px;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 71px -3px rgba(0, 0, 0, 0.75);
+        color: white;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        height: 75%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        justify-content: space-evenly;
+    }
+
+    .form-cabe {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+    }
+
+    .form-table {
+        border-spacing: 15px 20px;
+    }
+
+    input {
+        width: 288px;
+        height: 50px;
+        background: inherit;
+        border-radius: 10px;
+        border: inherit;
+        box-shadow: 0px 0px 71px -3px rgba(0, 0, 0, 0.75);
+        outline: none;
+        color: #fff;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    input::placeholder {
+        color: gainsboro;
+        font-size: 18px;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        background: inherit;
+        border-radius: 10px;
+        border: inherit;
+        box-shadow: 0px 0px 71px -3px rgba(0, 0, 0, 0.75);
+        outline: none;
+        color: #fff;
+        font-size: 18px;
+
+    }
+
+    button:hover {
+        border: solid #fff 1px;
+    }
+    
+    .table-registro{
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+    }
+
+    .table-registro:hover{
+        color: rgb(34, 34, 34);
+    }
