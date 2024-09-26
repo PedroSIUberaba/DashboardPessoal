@@ -92,6 +92,7 @@ include("valida.php");
 
     .sair:hover {
         background-color: #ddd;
+        color: red;
     }
 
     .content {

@@ -103,6 +103,7 @@ if ($resultado && $resultado->num_rows > 0) {
 
         .sair:hover {
             background-color: #ddd;
+            color: red;
         }
 
         .content {
