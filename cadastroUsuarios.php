@@ -172,7 +172,7 @@ include("valida.php");
         <div class="menu-left">
             <a href="principal.php">Início</a>
             <a href="cadastroUsuarios.php">Cadastrar Usuário</a>
-            <a href="teste.php">Histórico</a>
+            <a href="#">Histórico</a>
             <a href="#">Teste</a>
             <a href="#">Lebron James</a>
         </div>
