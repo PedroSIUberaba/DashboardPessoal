@@ -149,7 +149,7 @@ if ($resultado && $resultado->num_rows > 0) {
         <div class="menu-left">
             <a href="principal.php">Início</a>
             <a href="cadastroUsuarios.php">Cadastrar Usuário</a>
-            <a href="teste.php">Histórico</a>
+            <a href="#">Histórico</a>
             <a href="#">Teste</a>
             <a href="#">Lebron James</a>
         </div>
@@ -161,12 +161,11 @@ if ($resultado && $resultado->num_rows > 0) {
             </div>
 
             <div class="wrap-main">
-                <h2>Total de Usuários</h2>
                 <div class="usuarios-info">
-                    Usuários cadastrados: <?= $total_usuarios; ?>
+                    Viagra
                 </div>
                 <div class="img-container">
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXqO4pBeLoXaegT8aDlnPzNBT0j-EmFaYi9_iL_ZFCago1SNWD" alt="Imagem de exemplo">
+                    <img src="./images/viagra.webp" width="700px" alt="Imagem de exemplo">
                 </div>
             </div>
         </div>
