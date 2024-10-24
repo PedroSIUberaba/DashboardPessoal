@@ -5,6 +5,8 @@ include("conexao.php");
 $cpf = $_POST["cpf"];
 $senha = $_POST["senha"];
 
+include("validacoes.php");
+
 $sql = "SELECT nome FROM usuarios WHERE cpf = ? AND senha = ?";
 $stmt = $conn->prepare($sql);
 
